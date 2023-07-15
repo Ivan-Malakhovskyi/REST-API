@@ -33,7 +33,7 @@ function handlerSearchSelect(evt) {
 }
 
 function fetchCatByBreed(breedId) {
-  const BASE_URL = `https://api.thecatapi.com/v1/images/search?breed_ids=${breedId}1111`;
+  const BASE_URL = `https://api.thecatapi.com/v1/images/search?breed_ids=${breedId}`;
 
   showSpinner();
 
