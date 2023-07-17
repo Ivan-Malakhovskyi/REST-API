@@ -77,11 +77,3 @@ function hideSpinner() {
 }
 
 export { onError, hideSpinner, showSpinner, createMarkupCats };
-
-// createMarkup(breeds);
-
-// return breeds.map(breed => ({
-//   id: breed.id,
-//   name: breed.name,
-//   temperament: breed.temperament,
-// }));
